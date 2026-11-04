@@ -1,4 +1,4 @@
-export default function Squiggle({ color = '#D9A5A0', className = '' }) {
+export default function Squiggle({ color = '#AB92BF', className = '' }) {
   return (
     <svg
       className={`squiggle ${className}`}

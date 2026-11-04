@@ -42,7 +42,7 @@ export default function Contact() {
       </div>
 
       <p className="contact-note">Open to internships and collaborations</p>
-    <Squiggle className="squiggle-contact" color="#7A2B26" />
+    <Squiggle className="squiggle-contact" color="#D9A5A0" />
       
     </section>
   );
