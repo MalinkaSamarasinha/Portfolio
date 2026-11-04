@@ -7,7 +7,7 @@
   height: 112px;
   width: 100%;
   padding: 0 48px;
-  background-color: #EEDAC0;
+  background-color: #f2e4d3;
   color: #44131E;
   font-family: 'Orbitron', sans-serif;
 }
@@ -92,11 +92,11 @@
 }
 
 .hero-button:hover {
-  background-color: #EEDAC0;
+  background-color: #f2e4d3;
 }
 
 .hero-button:focus-visible {
-  outline: 2px solid #EEDAC0;
+  outline: 2px solid #f2e4d3;
   outline-offset: 4px;
 }
 
@@ -105,7 +105,7 @@
   align-items: center;
   gap: 48px;
   padding: 64px 48px;
-  background-color:#EEDAC0;
+  background-color:#f2e4d3;
   color:#44131E;
   font-family: 'Outfit', sans-serif;
 }
@@ -118,7 +118,7 @@
   box-sizing: border-box;
   padding: 64px 48px;
   background-color: #44131E;
-  color: #EEDAC0;
+  color: #f2e4d3;
   font-family: 'Outfit', sans-serif;
 }
 
@@ -161,36 +161,82 @@
 }
 
 .project-link a:focus-visible {
-  outline: 2px solid #EEDAC0;
+  outline: 2px solid #f2e4d3;
   outline-offset: 3px;
 }
 
-.contact{
-  background-color:#EEDAC0;
-  color:#EEDAC0
+.contact {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 64px 48px;
+  background-color: #EEDAC0;
+  color: #44131E;
+  font-family: 'Outfit', sans-serif;
 }
 
-.contact > heading{
-  font-size:64px;
-  font-weight:600;
+.contact-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  font-size: 22px;
+  color: inherit;
 }
 
-.contact > p{
-  font-size:24;
-  font-weight:400;
+.contact-icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
 }
 
-.contact > button{
-  border-radius:40;
-  width:317px;
-  height:66px;
-  background:#44131E;
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 32px;
 }
 
+.contact-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  padding: 18px 32px;
+  border-radius: 999px;
+  background-color: #44131E;
+  color: #EEDAC0;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #6B2230;
+}
+
+.contact-button:focus-visible,
+.contact-email:focus-visible {
+  outline: 2px solid #44131E;
+  outline-offset: 4px;
+}
+
+.contact-note {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.contact-squiggle {
+  position: absolute;
+  right: -40px;
+  bottom: -60px;
+  width: 420px;
+  pointer-events: none;
+}
 
 .footer{
   background-color:#44131E;
-  color:#EEDAC0;
+  color:#f2e4d3;
 }
 
 .footer > p{
