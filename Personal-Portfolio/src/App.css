@@ -1,0 +1,170 @@
+
+.navbar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+  width: 100%;
+  padding: 0 48px;
+  background-color: #EEDAC0;
+  color: #44131E;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 40px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-links a {
+  font-size: 16px;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links a:focus-visible,
+.logo:focus-visible {
+  outline: 2px solid #44131E;
+  outline-offset: 4px;
+}
+
+
+.hero > img {
+  width: 394px;
+  height: 492px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 80px;
+}
+
+.hero-text {
+  max-width: 800px;
+}
+
+.heading {
+  margin: 0 0 16px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.subheading {
+  margin: 0 0 32px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.hero {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 64px 48px;
+  background-color: #44131E;
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 999px;
+  background-color: #D9A5A0;
+  color: #44131E;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: #EEDAC0;
+}
+
+.hero-button:focus-visible {
+  outline: 2px solid #EEDAC0;
+  outline-offset: 4px;
+}
+
+.about{
+  box-sizing: border-box;
+  
+  align-items: center;
+  gap: 48px;
+  padding: 64px 48px;
+  background-color:#EEDAC0;
+  color:#44131E;
+  font-family: 'Outfit', sans-serif;
+}
+
+.about > p{
+  font-size:24px;
+  font-weight:200;
+}
+
+.mywork {
+  background-color:#44131E;
+  color:#EEDAC0;
+}
+
+.mywork > heading{
+  font-size:64px;
+  font-weight:600;
+}
+
+.mywork > subheading{
+  font-size:24px;
+  font-weight:600;
+}
+
+.mywork > p{
+  font-size:24px;
+  font-weight:400;
+}
+
+.contact{
+  background-color:#EEDAC0;
+  color:#EEDAC0
+}
+
+.contact > heading{
+  font-size:64px;
+  font-weight:600;
+}
+
+.contact > p{
+  font-size:24;
+  font-weight:400;
+}
+
+.contact > button{
+  border-radius:40;
+  width:317px;
+  height:66px;
+  background:#44131E;
+}
+
+
+.footer{
+  background-color:#44131E;
+  color:#EEDAC0;
+}
+
+.footer > p{
+  font-size:24px;
+  font-weight:400;
+}
