@@ -126,7 +126,7 @@
 .project-list {
   max-width: 1000px;
   margin: 0;
-  padding-left: 32px;   /* space for the bullets */
+  padding-left: 32px;   
 }
 
 .project {
@@ -153,7 +153,7 @@
 
 .project-link a {
   color: inherit;
-  overflow-wrap: anywhere;   /* long URLs wrap instead of overflowing */
+  overflow-wrap: anywhere;   
 }
 
 .project-link a:hover {
@@ -242,4 +242,49 @@
 .footer > p{
   font-size:24px;
   font-weight:400;
+}
+
+.hero,
+.mywork,
+.contact {
+  position: relative;
+  overflow: hidden;
+}
+
+.squiggle {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  overflow:visible;
+}
+
+.squiggle-hero {
+  top: -240px;
+  right: -250px;  
+  width: 450px;
+  transform: rotate(-40deg);
+}
+
+.squiggle-work {
+  top: -40px;
+  right: -40px;
+  width: 450px;
+  transform: rotate(-20deg);
+}
+
+.squiggle-contact {
+  bottom: -80px;
+  right: -40px;
+  width: 450px;
+  transform: rotate(10deg);
+}
+
+
+.hero > img,
+.hero-text,
+.section-heading,
+.project-list,
+.contact > :not(.squiggle) {
+  position: relative;
+  z-index: 1;
 }

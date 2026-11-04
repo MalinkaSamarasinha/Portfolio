@@ -1,4 +1,5 @@
 import portrait from '../assets/portrait.jpeg';
+import Squiggle from './Squiggle';
 
 export default function Hero() {
   return (
@@ -12,6 +13,7 @@ export default function Hero() {
           Computing. I build web projects and help run student communities.
         </p>
         <a href="#work" className="hero-button">View my work</a>
+        <Squiggle className="squiggle-hero" color="#D9A5A0" />
       </div>
     </section>
   )

@@ -1,3 +1,4 @@
+import Squiggle from './Squiggle';
 export default function MyWork() {
   return (
     <section className="mywork" id="work">
@@ -69,6 +70,7 @@ export default function MyWork() {
           <p className="project-desc">Tags: Python · Tkinter · OpenCV</p>
         </li>
       </ul>
+      <Squiggle className="squiggle-work" color="#D9A5A0" />
     </section>
   );
 }

@@ -1,9 +1,9 @@
-import squiggle from '../assets/squiggly-contact.svg';
+import Squiggle from './Squiggle';
 
 export default function Contact() {
   return (
     <section className="contact" id="contact">
-      <h2 className="section-heading">Contact</h2>
+      <h2 className="heading">Contact</h2>
 
       <a className="contact-email" href="mailto:malinkasamarasinha@gmail.com">
         <svg
@@ -42,8 +42,8 @@ export default function Contact() {
       </div>
 
       <p className="contact-note">Open to internships and collaborations</p>
-
-      <img className="contact-squiggle" src={squiggle} alt="" />
+    <Squiggle className="squiggle-contact" color="#7A2B26" />
+      
     </section>
   );
 }
